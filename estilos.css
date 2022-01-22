@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+header{
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    background-position: bottom; 
+    color: aliceblue;
+}
+nav a{
+    color: white !important;
+}
+.banner .btn:first-of-type{
+    background-color: #1abc9c;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.banner .btn:last-of-type{
+    background-color:#3498db ;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 60%;
+}
+.banner{
+    margin-bottom: 6em;
+}
+.banner div div{
+    display: inline;
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    left: 49%;
+    color: black;
+    margin-top: 0.4em;
+    background-color: white;
+    border-radius:100%;
+}
+
+.about img{
+    text-align: center;
+}
+section:nth-of-type(2){
+    background-color: #f6f6f6;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+section:nth-of-type(3){
+    padding-bottom: 3em;
+}
+.about{
+    margin-bottom: 6em;
+    text-align: center;
+}
+
+.features img{
+    width: 100%;
+    margin-top: 4em;
+}
+
+.features{
+    margin-bottom: 6em;
+    padding-top: 2em;
+    color: white;
+}
+.features p{
+    padding-top: 1em;
+}
+.comments{
+    justify-content: center;
+}
+.comments h2{
+    margin-bottom: 3em;
+}
+.comments img{
+    width: 100%;
+}
+.color{
+    background: #eeeeee;
+}
+.bg-contact{
+    background-color: #34495e;
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.coment-card{
+    padding: 1em;
+}
+.coment-card .h4{
+    margin-top: 1em;
+}
+.coment-card > div {
+    align-items: center;
+}
+.contact{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: white;
+}
+.contact form div:last-of-type{
+    margin-left: auto;
+}
+.contact ul{
+    padding-left: 0;
+    margin-top: 2em;
+}
+.contact ul li{
+    margin-bottom: 1em;
+} 
+.contact li:first-of-type{
+    list-style: none;
+    background: url(img/ubication.png) no-repeat left;
+    padding-left: 1.5em;
+}
+.contact li:nth-of-type(2){
+    list-style: none;
+    background: url(img/phone.png) no-repeat left;
+    padding-left: 1.5em;
+}
+.contact li:last-of-type{
+    list-style: none;
+    background: url(img/mail.png) no-repeat left;
+    padding-left: 1.5em;
+}
+.contact button:first-of-type{
+    background-color: #1abc9c;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.contact button:last-of-type{
+    background-color: #3498db;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color:#2c3e50;
+    color: white;
+}
+form .form-control{
+    background: #5d6d7e !important;
+}
+form .form-control:not(select){
+    color: white !important;
+}
+.placeholder{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+form .form-control::placeholder {
+    color: rgba(255, 255, 255);
+    opacity: .5;
+}
+form select{
+    margin-top: 1em;
+    color: white !important;
+}
+form select option{
+    color: white;
+}
+form select option:disabled{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.bg_2{
+    background: url(img/bg_2.png) no-repeat;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    z-index: -1;
+}
+#navbarNav .nav-link{
+    text-align: center;
+}
+#navbarNav .nav-link:hover{
+    border-color: #1abc9c;
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: .2em;
+}
+.container .banner{
+    padding-top: 2em;
+}
+.contact input:first-of-type{
+    margin-bottom: 1em;
+}
+
+@media (min-width:960px) {
+    .banner img{
+        width: 100%;
+    }
+    .about div:first-of-type{
+        padding-right: 6em;
+    }
+    .about{
+        margin-bottom: 6em;
+        text-align: left;
+    }
+    .about img{
+        width: 100%;
+    }
+    header{
+        height: inherit;
+    }
+    .features img{
+    width: 600px;
+    margin-top: 6em;
+    }
+    .features p {
+        text-align: center;
+    }
+    .container .banner{
+        align-items: center;
+    }
+    .container .banner h2, p{
+        text-align: left;
+    }
+    .bg_2{
+        height: 75%;
+    }
+}
+@media (min-width:768px) {
+    .banner img{
+        width: 100%;
+    }
+    header{
+        height: inherit;
+    }
+    .about{
+        margin-bottom: 6em;
+        text-align: left;
+        align-items: center;
+
+    }
+    .about img{
+        width: 100%;
+    }
+  
+}
